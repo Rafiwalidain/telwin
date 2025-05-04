@@ -2,14 +2,6 @@
 module.exports = {
   content: ["./index.html"],
   theme: {
-    extend: {},
-  },
-  plugins: [],
-};
-
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  theme: {
     extend: {
       spacing: {
         13: "3.25rem",
@@ -34,4 +26,5 @@ module.exports = {
       },
     },
   },
+  plugins: [],
 };
